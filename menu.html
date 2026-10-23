@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu & Price（メニュー・料金） | Hair Salon RICHE 表参道</title>
+  <meta name="description" content="表参道の美容サロン『Hair Salon RICHE』のメニュー・料金表です。レディースカット、透明感カラー、ダメージレスパーマ、髪質改善トリートメントなど。初回限定20%OFFクーポンをご用意しております。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header header-solid">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Hair Salon RICHE トップページ">
+        <span class="brand-name">RICHE</span>
+        <span class="brand-location">HAIR SALON OMOTESANDO</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="index.html#concept" class="nav-link">Concept</a></li>
+          <li><a href="index.html#stylists" class="nav-link">Stylists</a></li>
+          <li><a href="menu.html" class="nav-link is-active">Menu & Price</a></li>
+          <li><a href="salon.html" class="nav-link">Salon Info</a></li>
+          <li><a href="index.html#news" class="nav-link">News</a></li>
+        </ul>
+        <button type="button" class="btn-header-reserve js-open-reserve">
+          Reservation
+        </button>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" aria-label="モバイルナビゲーション">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item">
+        <a href="index.html" class="mobile-nav-link">
+          Home
+          <span class="ja-sub">トップ</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="index.html#concept" class="mobile-nav-link">
+          Concept
+          <span class="ja-sub">サロンの哲学</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="index.html#stylists" class="mobile-nav-link">
+          Stylists
+          <span class="ja-sub">スタイリスト</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="menu.html" class="mobile-nav-link">
+          Menu & Price
+          <span class="ja-sub">メニュー・料金</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="salon.html" class="mobile-nav-link">
+          Salon Info
+          <span class="ja-sub">サロン情報・アクセス</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="index.html#news" class="mobile-nav-link">
+          News
+          <span class="ja-sub">新着情報</span>
+        </a>
+      </li>
+    </ul>
+    <button type="button" class="btn-gold mobile-nav-reserve js-open-reserve">
+      Web Reservation
+    </button>
+  </div>
+
+  <main>
+    <!-- Page Hero Header -->
+    <section class="page-hero">
+      <div class="page-hero-bg">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1920&q=80" alt="Hair Salon RICHE メニュー背景">
+      </div>
+      <div class="page-hero-overlay"></div>
+      <div class="container page-hero-content">
+        <h1 class="page-hero-title">Menu & Price</h1>
+        <p class="page-hero-sub">施術メニュー・料金一覧</p>
+        <div class="breadcrumb">
+          <a href="index.html">HOME</a>
+          <span class="breadcrumb-separator">/</span>
+          <span>MENU & PRICE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="section">
+      <div class="container-narrow">
+
+        <!-- First Visit Coupon Banner -->
+        <div class="coupon-banner reveal-on-scroll">
+          <span class="coupon-tag">First Visit Special Coupon</span>
+          <h2 class="coupon-title">
+            初回ご来店特典 <span class="coupon-highlight">全メニュー 20% OFF</span>
+          </h2>
+          <p class="coupon-desc">
+            初めてHair Salon RICHEをご利用いただくお客様へ、感謝を込めてすべての施術メニューを20%OFFにてご提供いたします。<br>
+            極上のサロン体験と髪質改善の真価を、ぜひこの機会にご体感ください。
+          </p>
+          <button type="button" class="btn-gold js-open-reserve" data-menu="coupon-first">
+            このクーポンで予約する <span class="btn-icon">→</span>
+          </button>
+          <p class="coupon-note" style="margin-top: 14px;">
+            ※ご予約フォームまたはご来店時に「WEBサイトを見た」とお伝えください。他クーポンとの併用はいたしかねます。
+          </p>
+        </div>
+
+        <!-- Category 1: CUT -->
+        <div class="menu-category-block reveal-on-scroll">
+          <div class="menu-category-header">
+            <h2 class="menu-category-en">01. Cut</h2>
+            <span class="menu-category-ja">カット</span>
+          </div>
+          <table class="menu-items-table">
+            <tbody>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">レディースカット</h3>
+                  <p class="menu-item-desc">シャンプー・ブロー込。骨格・毛流れ・髪質を綿密に見極め、ご自身でも乾かすだけで美しくまとまる再現性の高いスタイルを創り上げます。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥7,700</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">メンズカット</h3>
+                  <p class="menu-item-desc">シャンプー・ブロー・眉カット込。清潔感と品格を兼ね備えた大人のビジネス＆カジュアルスタイルを仕立てます。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥6,600</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">前髪カット</h3>
+                  <p class="menu-item-desc">顔まわりの印象を左右するバングラインをミリ単位で調整。繊細な似合わせで目元の魅力を引き出します。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥1,100</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Category 2: COLOR -->
+        <div class="menu-category-block reveal-on-scroll">
+          <div class="menu-category-header">
+            <h2 class="menu-category-en">02. Color</h2>
+            <span class="menu-category-ja">カラー</span>
+          </div>
+          <table class="menu-items-table">
+            <tbody>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">フルカラー</h3>
+                  <p class="menu-item-desc">髪の芯まで潤いと艶を届けるダメージレスカラー。赤みを抑えた透明感カラーや、深みのある上品なグレージュまで自在に演出します。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥8,800〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">リタッチ</h3>
+                  <p class="menu-item-desc">根元2〜3cmのメンテナンスカラー。毛先との境目を美しくグラデーションさせ、髪の美しさを継続的にキープします。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥6,600〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">ハイライト</h3>
+                  <p class="menu-item-desc">立体感と自然な陰影を与えるデザインカラー。白髪を活かしたシークレットハイライトにも柔軟に対応いたします。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥5,500〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Category 3: PERM -->
+        <div class="menu-category-block reveal-on-scroll">
+          <div class="menu-category-header">
+            <h2 class="menu-category-en">03. Perm</h2>
+            <span class="menu-category-ja">パーマ</span>
+          </div>
+          <table class="menu-items-table">
+            <tbody>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">デジタルパーマ</h3>
+                  <p class="menu-item-desc">コテで巻いたような弾力のある柔らかなウェーブを長期キープ。朝のスタイリング時間を大幅に短縮できます。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥13,200〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">コスメパーマ</h3>
+                  <p class="menu-item-desc">化粧品登録の低刺激・高保湿な薬剤を使用。髪への負担を最小限に抑え、しなやかでナチュラルな毛流れをつくります。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥11,000〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Category 4: TREATMENT -->
+        <div class="menu-category-block reveal-on-scroll">
+          <div class="menu-category-header">
+            <h2 class="menu-category-en">04. Treatment</h2>
+            <span class="menu-category-ja">トリートメント & 髪質改善</span>
+          </div>
+          <table class="menu-items-table">
+            <tbody>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">TOKIOトリートメント</h3>
+                  <p class="menu-item-desc">特許技術インカラミによる毛髪強度140%回復ケア。ノーベル賞受賞成分フラーレンを配合し、内側からしっとりしなやかな美髪へ導きます。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥5,500〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+              <tr class="menu-item-row">
+                <td class="menu-item-main">
+                  <h3 class="menu-item-name">髪質改善エステ</h3>
+                  <p class="menu-item-desc">酸熱トリートメントと高濃度水素を組み合わせた最高峰の集中補修。うねり・広がり・エイジング毛を芯から整え、息を呑むような艶とまとまりを実現します。</p>
+                </td>
+                <td class="menu-item-price-col">
+                  <span class="menu-item-price">¥16,500〜</span><span class="menu-item-tax">（税込）</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Additional Notes -->
+        <div class="menu-notes-card reveal-on-scroll">
+          <h3 class="menu-notes-title">施術に関するご案内・注意事項</h3>
+          <ul class="menu-notes-list">
+            <li class="menu-notes-item">料金はすべて税込価格となっております。</li>
+            <li class="menu-notes-item">カット以外の単品メニューには、シャンプー・ブロー料金（¥2,200）が別途かかります。</li>
+            <li class="menu-notes-item">カラー・パーマ・トリートメントの「〜」表記は、髪の長さ（ミディアム +¥1,100 / ロング +¥2,200）によるものです。</li>
+            <li class="menu-notes-item">全スタイリストにおいて指名料はいただいておりません。お気軽にご指名ください。</li>
+            <li class="menu-notes-item">施術前に丁寧なプレカウンセリングを行い、仕上がりイメージと正確なお会計金額を事前にお伝えいたします。</li>
+          </ul>
+        </div>
+
+        <!-- Bottom Action CTA -->
+        <div style="text-align: center; margin-top: 60px;" class="reveal-on-scroll">
+          <button type="button" class="btn-gold js-open-reserve">
+            Web予約に進む <span class="btn-icon">→</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Reservation CTA Section -->
+    <section class="cta-section" aria-label="ご予約案内">
+      <div class="cta-bg-pattern" aria-hidden="true"></div>
+      <div class="container reveal-on-scroll">
+        <span class="cta-tag-en">Online Reservation</span>
+        <h2 class="cta-title">極上の時間と、あなただけの美しさを。</h2>
+        <p class="cta-lead">
+          表参道のプライベート空間で、心ほどける特別なサロンタイムをお過ごしください。<br>
+          WEB予約は24時間受付けております。
+        </p>
+        <div class="cta-buttons-group">
+          <button type="button" class="btn-gold js-open-reserve">
+            Webで予約する <span class="btn-icon">→</span>
+          </button>
+          <a href="tel:03-XXXX-XXXX" class="btn-outline-gold">
+            Tel: 03-XXXX-XXXX
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-name">RICHE</span>
+            <span class="brand-location">HAIR SALON OMOTESANDO</span>
+          </a>
+          <p class="footer-desc">
+            30〜40代の大人の女性に向けた表参道のプライベートヘアサロン。髪質を見極めた繊細なカットと、上質なケアで本来の美しさを引き出します。
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h3 class="footer-col-title">Navigation</h3>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link">Home / トップ</a></li>
+            <li><a href="index.html#concept" class="footer-nav-link">Concept / コンセプト</a></li>
+            <li><a href="index.html#stylists" class="footer-nav-link">Stylists / スタイリスト</a></li>
+            <li><a href="menu.html" class="footer-nav-link">Menu & Price / メニュー・料金</a></li>
+            <li><a href="salon.html" class="footer-nav-link">Salon Info / サロン情報・アクセス</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h3 class="footer-col-title">Salon Info</h3>
+          <div class="footer-info-list">
+            <div class="footer-info-item">
+              <span>Address</span>
+              東京都渋谷区神宮前4-XX-XX 2F
+            </div>
+            <div class="footer-info-item">
+              <span>Tel</span>
+              03-XXXX-XXXX
+            </div>
+            <div class="footer-info-item">
+              <span>Hours</span>
+              平日 10:00 - 20:00 / 土日祝 9:00 - 19:00<br>
+              定休日：毎週火曜日
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; Hair Salon RICHE. All Rights Reserved.</p>
+        <div class="footer-sns">
+          <a href="#" class="footer-sns-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#" class="footer-sns-link" target="_blank" rel="noopener noreferrer">Line</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reservation Modal -->
+  <div id="reservationModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn js-modal-close" aria-label="閉じる">✕</button>
+      
+      <div class="modal-header">
+        <h2 id="modalTitle" class="modal-title-en">Reservation</h2>
+        <p class="modal-subtitle">WEB予約フォーム</p>
+      </div>
+
+      <form id="reservationForm">
+        <div class="modal-form-group">
+          <label for="reserveStylist" class="modal-label">
+            ご希望のスタイリスト<span class="required">※</span>
+          </label>
+          <select id="reserveStylist" class="modal-select" required>
+            <option value="">指名なし（おまかせ）</option>
+            <option value="tanaka">田中 翔（オーナースタイリスト）</option>
+            <option value="suzuki">鈴木 あかり（トップスタイリスト）</option>
+            <option value="sasaki">佐々木 遥（カラーリスト）</option>
+          </select>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveMenu" class="modal-label">
+            ご希望のメニュー<span class="required">※</span>
+          </label>
+          <select id="reserveMenu" class="modal-select" required>
+            <option value="">メニューをお選びください</option>
+            <option value="coupon-first">【初回限定】全メニュー20%OFFクーポン</option>
+            <option value="cut-ladies">レディースカット ¥7,700</option>
+            <option value="cut-mens">メンズカット ¥6,600</option>
+            <option value="cut-bangs">前髪カット ¥1,100</option>
+            <option value="color-full">フルカラー ¥8,800〜</option>
+            <option value="color-retouch">リタッチカラー ¥6,600〜</option>
+            <option value="color-highlight">ハイライト ¥5,500〜</option>
+            <option value="perm-digital">デジタルパーマ ¥13,200〜</option>
+            <option value="perm-cosme">コスメパーマ ¥11,000〜</option>
+            <option value="treatment-tokio">TOKIOトリートメント ¥5,500〜</option>
+            <option value="treatment-hair">髪質改善トリートメント ¥16,500〜</option>
+          </select>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveDate" class="modal-label">
+            ご希望日時<span class="required">※</span>
+          </label>
+          <input type="datetime-local" id="reserveDate" class="modal-input" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveName" class="modal-label">
+            お名前<span class="required">※</span>
+          </label>
+          <input type="text" id="reserveName" class="modal-input" placeholder="例：表参道 花子" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveTel" class="modal-label">
+            お電話番号<span class="required">※</span>
+          </label>
+          <input type="tel" id="reserveTel" class="modal-input" placeholder="例：090-1234-5678" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveEmail" class="modal-label">
+            メールアドレス<span class="required">※</span>
+          </label>
+          <input type="email" id="reserveEmail" class="modal-input" placeholder="例：name@example.com" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveNote" class="modal-label">ご要望・ご相談（任意）</label>
+          <textarea id="reserveNote" class="modal-textarea" rows="3" placeholder="髪のお悩みやスタイルのご希望があればご記入ください"></textarea>
+        </div>
+
+        <button type="submit" class="btn-gold modal-submit-btn">
+          予約リクエストを送信する
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
