@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hair Salon RICHE（ヘアサロン リッシュ） | 東京・表参道</title>
+  <meta name="description" content="表参道駅徒歩3分。大人のためのラグジュアリーヘアサロン『Hair Salon RICHE』。一人ひとりの髪質を見極め、あなたの本来の美しさを引き出す至高のヘアデザインと髪質改善ケアをお届けします。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Noto+Serif+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Hair Salon RICHE トップページ">
+        <span class="brand-name">RICHE</span>
+        <span class="brand-location">HAIR SALON OMOTESANDO</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link is-active">Home</a></li>
+          <li><a href="#concept" class="nav-link">Concept</a></li>
+          <li><a href="#stylists" class="nav-link">Stylists</a></li>
+          <li><a href="menu.html" class="nav-link">Menu & Price</a></li>
+          <li><a href="salon.html" class="nav-link">Salon Info</a></li>
+          <li><a href="#news" class="nav-link">News</a></li>
+        </ul>
+        <button type="button" class="btn-header-reserve js-open-reserve">
+          Reservation
+        </button>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" aria-label="モバイルナビゲーション">
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item">
+        <a href="index.html" class="mobile-nav-link">
+          Home
+          <span class="ja-sub">トップ</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#concept" class="mobile-nav-link">
+          Concept
+          <span class="ja-sub">サロンの哲学</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#stylists" class="mobile-nav-link">
+          Stylists
+          <span class="ja-sub">スタイリスト</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="menu.html" class="mobile-nav-link">
+          Menu & Price
+          <span class="ja-sub">メニュー・料金</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="salon.html" class="mobile-nav-link">
+          Salon Info
+          <span class="ja-sub">サロン情報・アクセス</span>
+        </a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#news" class="mobile-nav-link">
+          News
+          <span class="ja-sub">新着情報</span>
+        </a>
+      </li>
+    </ul>
+    <button type="button" class="btn-gold mobile-nav-reserve js-open-reserve">
+      Web Reservation
+    </button>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" aria-label="メインビジュアル">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1920&q=80" alt="Hair Salon RICHE 表参道の洗練されたサロン空間">
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <span class="hero-lead-en">Hair Salon RICHE Omotesando</span>
+        <h1 class="hero-catchphrase">あなたの美しさを、<br>引き出す。</h1>
+        <p class="hero-subtext">
+          表参道の閑静なプライベート空間で、<br>
+          髪質を見極めた至高のヘアデザインと極上の癒やしをご体験ください。
+        </p>
+        <div class="hero-actions">
+          <button type="button" class="btn-gold js-open-reserve">
+            Web Reservation <span class="btn-icon">→</span>
+          </button>
+          <a href="menu.html" class="btn-outline-gold">
+            View Menu <span class="btn-icon">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="hero-scroll-text">Scroll</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-watermark">CONCEPT</span>
+          <h2 class="section-title-en">Concept</h2>
+          <span class="section-subtitle-ja">サロンの哲学</span>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="concept-grid">
+          <div class="concept-image-wrapper reveal-on-scroll">
+            <div class="concept-image-frame" aria-hidden="true"></div>
+            <div class="concept-image">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=80" alt="丁寧なカウンセリングとシザーワークで美を引き出す施術">
+            </div>
+          </div>
+
+          <div class="concept-content reveal-on-scroll delay-200">
+            <h3 class="concept-tagline">一人ひとりが本来持つ、<br>唯一無二の美しさを。</h3>
+            <div class="concept-philosophy">
+              <p>表参道の閑静な街並みに佇む Hair Salon RICHE は、洗練された技術と選び抜かれた薬剤で、髪の芯から輝く美を紡ぎます。</p>
+              <p>骨格や生え癖、髪質を見極めた繊細なカットと、上質なオーガニック＆高濃度トリートメント。</p>
+              <p>日常の喧騒を忘れ、私だけの贅沢な時間に身を委ねて。</p>
+            </div>
+
+            <div class="concept-features">
+              <div class="concept-feature-item">
+                <h4 class="concept-feature-title">Private Luxury</h4>
+                <p class="concept-feature-desc">席間を贅沢にとった全6席の上質なプライベート空間</p>
+              </div>
+              <div class="concept-feature-item">
+                <h4 class="concept-feature-title">Care & Design</h4>
+                <p class="concept-feature-desc">髪質改善とトレンドが両立する持続可能なヘアデザイン</p>
+              </div>
+            </div>
+
+            <div style="margin-top: 36px;">
+              <a href="salon.html" class="btn-outline-dark">
+                Salon Details <span class="btn-icon">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stylists Section -->
+    <section id="stylists" class="section bg-gray">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-watermark">STYLISTS</span>
+          <h2 class="section-title-en">Stylists</h2>
+          <span class="section-subtitle-ja">スタイリスト紹介</span>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="stylists-grid">
+          <!-- Stylist 1: 田中 翔 -->
+          <article class="stylist-card reveal-on-scroll">
+            <div class="stylist-image-box">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="オーナースタイリスト 田中 翔">
+              <span class="stylist-role-badge">Owner Stylist</span>
+            </div>
+            <div class="stylist-body">
+              <div class="stylist-name-group">
+                <span class="stylist-role">オーナースタイリスト</span>
+                <h3 class="stylist-name">田中 翔</h3>
+                <span class="stylist-name-en">Sho Tanaka</span>
+              </div>
+              <p class="stylist-quote">「髪質を見極めた、あなただけのスタイルを」</p>
+              <p class="stylist-details">
+                都内有名サロンで店長・ディレクターを歴任後、表参道にRICHEを開設。骨格補正カットと髪質改善ケアを得意とし、ご自宅でも簡単にまとまる上質なスタイルをご提案します。
+              </p>
+            </div>
+          </article>
+
+          <!-- Stylist 2: 鈴木 あかり -->
+          <article class="stylist-card reveal-on-scroll delay-100">
+            <div class="stylist-image-box">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80" alt="トップスタイリスト 鈴木 あかり">
+              <span class="stylist-role-badge">Top Stylist</span>
+            </div>
+            <div class="stylist-body">
+              <div class="stylist-name-group">
+                <span class="stylist-role">トップスタイリスト</span>
+                <h3 class="stylist-name">鈴木 あかり</h3>
+                <span class="stylist-name-en">Akari Suzuki</span>
+              </div>
+              <p class="stylist-quote">「トレンドと似合わせの両立を」</p>
+              <p class="stylist-details">
+                雑誌撮影やファッションショーのヘアメイクも手掛けるトップスタイリスト。30代〜40代の大人の女性にふさわしい、上品で抜け感のある洗練ショート・ボブが得意です。
+              </p>
+            </div>
+          </article>
+
+          <!-- Stylist 3: 佐々木 遥 -->
+          <article class="stylist-card reveal-on-scroll delay-200">
+            <div class="stylist-image-box">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="カラーリスト 佐々木 遥">
+              <span class="stylist-role-badge">Colorist</span>
+            </div>
+            <div class="stylist-body">
+              <div class="stylist-name-group">
+                <span class="stylist-role">カラーリスト</span>
+                <h3 class="stylist-name">佐々木 遥</h3>
+                <span class="stylist-name-en">Haruka Sasaki</span>
+              </div>
+              <p class="stylist-quote">「透明感のあるカラーが得意です」</p>
+              <p class="stylist-details">
+                色彩理論と髪のメラニン構造を熟知したスペシャリスト。赤みを抑えたシアーグレージュや大人の白髪ぼかしハイライトなど、艶と透明感を際立たせるカラーデザインを追究しています。
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- News & Topics Section -->
+    <section id="news" class="section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-watermark">NEWS</span>
+          <h2 class="section-title-en">News & Topics</h2>
+          <span class="section-subtitle-ja">お知らせ・新着情報</span>
+          <div class="section-divider"></div>
+        </div>
+
+        <ul class="news-list reveal-on-scroll">
+          <li class="news-item">
+            <a href="menu.html" class="news-link">
+              <div class="news-date-group">
+                <time class="news-date" datetime="2026-10-15">2026.10.15</time>
+                <span class="news-category">Topics</span>
+              </div>
+              <p class="news-title">秋の髪質改善＆高濃度TOKIOトリートメント特別メニューのご案内</p>
+              <span class="news-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="menu.html" class="news-link">
+              <div class="news-date-group">
+                <time class="news-date" datetime="2026-09-28">2026.09.28</time>
+                <span class="news-category">Info</span>
+              </div>
+              <p class="news-title">新色「シアーグレージュ」「オリーブアッシュ」秋の透明感カラーを導入いたしました</p>
+              <span class="news-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="salon.html" class="news-link">
+              <div class="news-date-group">
+                <time class="news-date" datetime="2026-09-01">2026.09.01</time>
+                <span class="news-category">Salon</span>
+              </div>
+              <p class="news-title">10月のスタイリストシフトおよびサロン定休日のお知らせ</p>
+              <span class="news-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="news-footer-cta reveal-on-scroll">
+          <a href="salon.html" class="btn-outline-dark">
+            Salon Information <span class="btn-icon">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation CTA Section -->
+    <section class="cta-section" aria-label="ご予約案内">
+      <div class="cta-bg-pattern" aria-hidden="true"></div>
+      <div class="container reveal-on-scroll">
+        <span class="cta-tag-en">Online Reservation</span>
+        <h2 class="cta-title">極上の時間と、あなただけの美しさを。</h2>
+        <p class="cta-lead">
+          表参道のプライベート空間で、心ほどける特別なサロンタイムをお過ごしください。<br>
+          WEB予約は24時間受付けております。
+        </p>
+        <div class="cta-buttons-group">
+          <button type="button" class="btn-gold js-open-reserve">
+            Webで予約する <span class="btn-icon">→</span>
+          </button>
+          <a href="tel:03-XXXX-XXXX" class="btn-outline-gold">
+            Tel: 03-XXXX-XXXX
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-name">RICHE</span>
+            <span class="brand-location">HAIR SALON OMOTESANDO</span>
+          </a>
+          <p class="footer-desc">
+            30〜40代の大人の女性に向けた表参道のプライベートヘアサロン。髪質を見極めた繊細なカットと、上質なケアで本来の美しさを引き出します。
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h3 class="footer-col-title">Navigation</h3>
+          <ul class="footer-nav-list">
+            <li><a href="index.html" class="footer-nav-link">Home / トップ</a></li>
+            <li><a href="index.html#concept" class="footer-nav-link">Concept / コンセプト</a></li>
+            <li><a href="index.html#stylists" class="footer-nav-link">Stylists / スタイリスト</a></li>
+            <li><a href="menu.html" class="footer-nav-link">Menu & Price / メニュー・料金</a></li>
+            <li><a href="salon.html" class="footer-nav-link">Salon Info / サロン情報・アクセス</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h3 class="footer-col-title">Salon Info</h3>
+          <div class="footer-info-list">
+            <div class="footer-info-item">
+              <span>Address</span>
+              東京都渋谷区神宮前4-XX-XX 2F
+            </div>
+            <div class="footer-info-item">
+              <span>Tel</span>
+              03-XXXX-XXXX
+            </div>
+            <div class="footer-info-item">
+              <span>Hours</span>
+              平日 10:00 - 20:00 / 土日祝 9:00 - 19:00<br>
+              定休日：毎週火曜日
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; Hair Salon RICHE. All Rights Reserved.</p>
+        <div class="footer-sns">
+          <a href="#" class="footer-sns-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#" class="footer-sns-link" target="_blank" rel="noopener noreferrer">Line</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reservation Modal -->
+  <div id="reservationModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn js-modal-close" aria-label="閉じる">✕</button>
+      
+      <div class="modal-header">
+        <h2 id="modalTitle" class="modal-title-en">Reservation</h2>
+        <p class="modal-subtitle">WEB予約フォーム</p>
+      </div>
+
+      <form id="reservationForm">
+        <div class="modal-form-group">
+          <label for="reserveStylist" class="modal-label">
+            ご希望のスタイリスト<span class="required">※</span>
+          </label>
+          <select id="reserveStylist" class="modal-select" required>
+            <option value="">指名なし（おまかせ）</option>
+            <option value="tanaka">田中 翔（オーナースタイリスト）</option>
+            <option value="suzuki">鈴木 あかり（トップスタイリスト）</option>
+            <option value="sasaki">佐々木 遥（カラーリスト）</option>
+          </select>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveMenu" class="modal-label">
+            ご希望のメニュー<span class="required">※</span>
+          </label>
+          <select id="reserveMenu" class="modal-select" required>
+            <option value="">メニューをお選びください</option>
+            <option value="cut-ladies">レディースカット ¥7,700</option>
+            <option value="cut-mens">メンズカット ¥6,600</option>
+            <option value="cut-bangs">前髪カット ¥1,100</option>
+            <option value="color-full">フルカラー ¥8,800〜</option>
+            <option value="color-retouch">リタッチカラー ¥6,600〜</option>
+            <option value="color-highlight">ハイライト ¥5,500〜</option>
+            <option value="perm-digital">デジタルパーマ ¥13,200〜</option>
+            <option value="perm-cosme">コスメパーマ ¥11,000〜</option>
+            <option value="treatment-tokio">TOKIOトリートメント ¥5,500〜</option>
+            <option value="treatment-hair">髪質改善トリートメント ¥16,500〜</option>
+            <option value="coupon-first">【初回限定】全メニュー20%OFFクーポン</option>
+          </select>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveDate" class="modal-label">
+            ご希望日時<span class="required">※</span>
+          </label>
+          <input type="datetime-local" id="reserveDate" class="modal-input" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveName" class="modal-label">
+            お名前<span class="required">※</span>
+          </label>
+          <input type="text" id="reserveName" class="modal-input" placeholder="例：表参道 花子" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveTel" class="modal-label">
+            お電話番号<span class="required">※</span>
+          </label>
+          <input type="tel" id="reserveTel" class="modal-input" placeholder="例：090-1234-5678" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveEmail" class="modal-label">
+            メールアドレス<span class="required">※</span>
+          </label>
+          <input type="email" id="reserveEmail" class="modal-input" placeholder="例：name@example.com" required>
+        </div>
+
+        <div class="modal-form-group">
+          <label for="reserveNote" class="modal-label">ご要望・ご相談（任意）</label>
+          <textarea id="reserveNote" class="modal-textarea" rows="3" placeholder="髪のお悩みやスタイルのご希望があればご記入ください"></textarea>
+        </div>
+
+        <button type="submit" class="btn-gold modal-submit-btn">
+          予約リクエストを送信する
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
